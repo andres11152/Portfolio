@@ -1,0 +1,51 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! Welcome",
+        "home_text-3": "Front-Stack Web Developer",
+        "parrafo-info": "I am a full stack developer with experience in Front-End technologies such as HTML, CSS, and JavaScript. I have Back-End skills in Java, Node.js, and databases like MySQL. I also have knowledge in agile development methodologies and an intermediate level of English. My professional objective is to continue growing and developing in the field of computer science..",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "texto_sobreMi": "I'm a Statistics undergraduate student and a self-taught Web Development student focused on Frontend programming.<br>I aspire to get a job in the Web Development world, gain experience, new knowledge and strengthen my professional life.<br><br>I'm an empathetic and enthusiastic person, with skills focused on teamwork, assertive communication, problem solving, responsible and proactive, I like to learn from others and continuously improve myself."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Training",
+        "formacion1": "Statistic",
+        "tiempo-formacion1": "2019 - In progress",
+        "formacion2": "Full-Stack Developer",
+        "tiempo-formacion2": "2022 - In progress",
+        "formacion3": "Accounting for Commercial and Financial Transactions"
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "title-proyecto1": "Hangman Game",
+        "info-proyecto1": "A game where the user must guess the secret word with a certain number of chances. The word is chosen randomly by the program and the user will lose the moment the gallows is completed.",
+        "title-proyecto2": "Portfolio",
+        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background.",
+        "title-proyecto3": "Text Encryptor",
+        "info-proyecto3": "An encryptor where the user can type a text and the encryptor encrypts it with pre-programmed keys. The encryptor can also decrypt the text."
+    },
+
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn-enviar": "Send"
+    }
+}
