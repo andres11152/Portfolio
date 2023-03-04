@@ -37,14 +37,7 @@ const changeLanguage = async language => {
 
 flagsElement.addEventListener('click', e => changeLanguage(e.target.parentElement.dataset.language));
 
-/*===== class active por secciones =====*/
-window.addEventListener('scroll', () => {
-    const scrollY = window.pageYOffset;
-    sectionAll.forEach(current => {
-        const { offsetTop, offsetHeight, id } = current;
-        select(`nav a[href*=${id}]`).classList.toggle('active', scrollY > offsetTop && scrollY < offsetTop + offsetHeight);
-    });
-});
+
 
 /*===== Boton y función ir arriba =====*/
 window.addEventListener('scroll', () => {
