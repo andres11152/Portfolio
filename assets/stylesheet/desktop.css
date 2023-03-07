@@ -81,9 +81,10 @@ div.btn {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    letter-spacing: .2rem;
+    letter-spacing: .4rem;
     text-align: start;
     margin-top: 6rem;
+
 }
 
 .home_text-1 {
@@ -161,9 +162,9 @@ div.btn {
 
 .links {
     width: 8%;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 10rem 2rem 0rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 }
 
 .links img {
@@ -328,7 +329,7 @@ div.btn {
 .container_box--contacto {
     margin-top: 2rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
 }
 
 .container_img--contacto {

@@ -51,33 +51,17 @@ select('.go-top-container').addEventListener('click', () => {
 
 /*===== Efecto 3d imagen principal===== */
 const el = document.getElementById("image_home");
-const height = el.clientHeight;
-const width = el.clientWidth;
+const {clientHeight: height, clientWidth: width} = el;
+const transformString = `
+    perspective(500px)
+    scale(1.1)`;
 
-el.addEventListener('mousemove', (evt)=> {
-    const {layerX, layerY} = evt
+el.addEventListener('mousemove', ({layerX, layerY}) => {
+    const yRotation = (layerX - width / 2) / width * 20;
+    const xRotation = (layerY - height / 2) / height * 20;
+    el.style.transform = `${transformString} rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
+});
 
-    const yRotation = (
-        (layerX - width / 2) / width
-    ) * 20;
-
-    const xRotation = (
-        (layerY - width / 2) / width
-    ) * 20;
-
-    const string = `
-        perspective(500px)
-        scale(1.1)
-        rotateX(${xRotation}deg)
-        rotateY(${yRotation}deg)`
-
-    el.style.transform = string;
-})
-
-el.addEventListener('mouseout', () =>{
-    el.style.transform = `
-        perspective(500px)
-        scale(1.1)
-        rotateX(0)
-        rotateY(0)`
-})
+el.addEventListener('mouseout', () => {
+    el.style.transform = `${transformString} rotateX(0) rotateY(0)`;
+});

@@ -28,7 +28,13 @@ html {
     scrollbar-width: 10px;
     scrollbar-color: var(--beaver) var(--orange);
     scroll-behavior: smooth;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
     
+}
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 html::-webkit-scrollbar {
@@ -279,6 +285,13 @@ span+span {
     padding: 14rem 0rem 5rem 0rem;
 }
 
+.container_text-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
 #image_home {
 
     justify-content: right;
@@ -302,6 +315,9 @@ span+span {
 }
 
 .home_text-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Pasajero';
     color: var(--white);
     font-size: 2rem;
@@ -370,20 +386,19 @@ span+span {
 }
 
 .links {
+  
     display: flex;
     justify-content: center;
-    padding: 2rem 0 6rem 0;
+    align-items: center;
+    
 }
 
 .links img {
-    width: 2.4rem;
-    margin: 0 .5rem;
+    
+    width: 3.4rem;
+    margin: 0 .7rem;
 }
 
-.links .icon-CodePen {
-    width: 2.1rem;
-    margin-top: 2px;
-}
 
 /* Sobre mí */
 
@@ -745,24 +760,16 @@ img.logo-sena {
 }
 
 .container--contacto {
-    width: 90%;
+    width: 80%;
     background-color: var(--beaver);
     border-radius: 24px;
     padding: 3rem;
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .container_text--contacto {
     width: 100%;
-}
-
-.container_text--contacto p {
-    font-size: 1.6rem;
-    font-family: 'Pasajero';
-    color: var(--white);
-    margin-bottom: 3rem;
-    letter-spacing: 1px;
-    line-height: 2.3rem;
 }
 
 .form-contact input {
@@ -859,7 +866,7 @@ footer {
     background-color: var(--eerie-black);
 }
 
-.contianer--footer {
+.container--footer {
     border-top: 1px solid var(--jet);
     width: 100%;
     margin: 0 auto;
