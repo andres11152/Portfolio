@@ -288,7 +288,7 @@ span+span {
 .container_text-info{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 
 }
 
@@ -327,7 +327,7 @@ span+span {
     font-family: 'Pasajero';
     color: var(--orange);
     font-size: 3.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .home_text-3 {
@@ -756,21 +756,20 @@ img.logo-sena {
 }
 
 .container_img--contacto {
+    height: 80%;
+    width: 70%;
     display: none;
 }
 
 .container--contacto {
-    width: 80%;
+    width: 100%;
     background-color: var(--beaver);
     border-radius: 24px;
-    padding: 3rem;
+    padding: 4rem;
     display: flex;
     justify-content: center;
 }
 
-.container_text--contacto {
-    width: 100%;
-}
 
 .form-contact input {
     font-family: 'Pasajero';
@@ -874,6 +873,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .container_redes-footer a {
