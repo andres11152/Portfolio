@@ -8,9 +8,8 @@
     },
 
     "home": {
-        "home_text-1": "Hola! Bienvenido",
-        "home_text-3": "Desarrollador web Full-Stack",
-        "parrafo-info": "Soy un desarrollador full stack con experiencia en tecnologías Front-End como HTML, CSS y JavaScript, Tengo habilidades Back-End en Java, Node.js y bases de datos como mysql. También tengo conocimientos en métodologias ágiles de desarrollo y un nivel intermedio de inglés. Mi objetivo profesional es seguir creciendo y desarrollándome en el campo de la informática.",
+        "home_text-3": "Desarrollador Web Backend",
+        "parrafo-info": "Desarrollador Backend Java, con conocimientos en Spring-Boot y MySQL.Soy un Apasionado por la programación y resolución de problemas, busco oportunidades para aplicar mis habilidades en un entorno profesional. Mi enfoque se centra en el desarrollo de aplicaciones Backend eficientes,fiables y escalables.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },

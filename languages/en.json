@@ -1,6 +1,6 @@
 {
     "menu": {
-        "item2": "About me",
+        
         "item3": "Skills",
         "item4": "Training",
         "item5": "Projects",
@@ -8,16 +8,10 @@
     },
 
     "home": {
-        "home_text-1": "Hi! Welcome",
-        "home_text-3": "Front-Stack Web Developer",
-        "parrafo-info": "I am a full stack developer with experience in Front-End technologies such as HTML, CSS, and JavaScript. I have Back-End skills in Java, Node.js, and databases like MySQL. I also have knowledge in agile development methodologies and an intermediate level of English. My professional objective is to continue growing and developing in the field of computer science..",
+        "home_text-3": "Backend Developer",
+        "parrafo-info": "I am a Backend developer with expertise in Java and knowledge of Spring Boot and MySQL databases. I am passionate about programming and problem-solving, seeking opportunities to apply my skills in a professional environment. My focus lies in developing efficient, reliable, and scalable Backend applications.",
         "cv_button": "Download CV",
         "contact_button": "Contact"
-    },
-
-    "sobre-mi": {
-        "title": "About me",
-        "texto_sobreMi": "I am a Systems Engineering student and also studied Full-Stack Web Development. As a professional, my goal is to establish a career in the world of Web Development, where I can gain new experience and knowledge, as well as continue to strengthen my professional profile. I am an enthusiastic and empathetic person, with skills focused on teamwork, assertive communication, problem solving, responsibility, and proactivity. I enjoy learning from others and am constantly seeking ways to improve myself. I am confident that I can bring value to any team and I am eager to continue growing as a professional in the world of Web Development.."
     },
 
     "habilidades": {
@@ -27,7 +21,7 @@
     "formacion": {
         "title": "Training",
         "formacion1": "Systems Engineer",
-        "tiempo-formacion1": "2017 - In progress",
+        "tiempo-formacion1": "2017 - 2021",
         "formacion2": "Full-Stack Developer",
         "tiempo-formacion2": "2022 - 2023",
         "formacion3": "Java certification course",

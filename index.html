@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio | Andres Betancourt Full-Stack Developer">
+    <meta name="description" content="Portafolio | Andres Betancourt Back-End Developer">
     <meta name="robots" content="index,follow">
-    <title>Andres Betancourt | Full-Stack Developer</title>
+    <title>Andres Betancourt | Back-End Developer</title>
 
     <!-- Librerías -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -37,9 +37,9 @@
     <header class="header">
         <img src="./assets/images/logo_andres.png" alt="Logo Portafolio" class="logo__header">
 
+            <!-- Barra de navegación -->
         <nav class="nav_menu not-active">
             <a href="#home" class="active">Home</a>
-            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
             <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
             <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
             <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
@@ -73,16 +73,19 @@
             
             <div class="home_info">
                 <div class="container_text-info">
-                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Bienvenido </p>
-                    <p class="home_text-2"> Soy Andres Betancourt</p>
+                    
+                    <p class="home_text-2">Andres Betancourt</p>
                 </div>
 
                 <div>
-                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">(      Full-Stack Developer</p>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">{Desarrollador Web Backend</p>
                 </div>
 
                 <div class="container_parrafo-info">
-                    <p data-section="home" data-value="parrafo-info">Soy un desarrollador full stack con experiencia en tecnologías Front-End como HTML, CSS y JavaScript, Tengo habilidades Back-End en Java, Node.js y bases de datos como mysql. También tengo conocimientos en métodologias ágiles de desarrollo y un nivel intermedio de inglés. Mi objetivo profesional es seguir creciendo y desarrollándome en el campo de la informática.</p>
+                    <p data-section="home" data-value="parrafo-info">Desarrollador Backend 
+                        Java, con conocimientos en Spring-Boot y MySQL.Soy un Apasionado por la programación y resolución de problemas, 
+                        busco oportunidades para aplicar mis habilidades en un entorno profesional. Mi enfoque se centra en el
+                         desarrollo de aplicaciones Backend eficientes,fiables y escalables.</p>
                 </div>
 
                 <div class="container_button">
@@ -106,27 +109,9 @@
                 <a href="https://codepen.io/andres11152" target="_blank">
                     <img src="./assets/images/icon-codepen.png" alt="CodePen" class="icon-CodePen">
                 </a>
-                <a href="https://www.instagram.com/dev_btc" target="_blank">
-                    <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
-                </a>
             </div>
         </section>
 
-        <!-- Sobre mí -->
-        <section class="sobreMi" id="sobreMi">
-            <h1 data-section="sobre-mi" data-value="title">Sobre mí</h1>
-
-            <div class="container_content-sobreMi">
-                <div class="container_texto-sobreMi">
-                    <span class="title_sobreMi">Andres Betancourt</span>
-                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy estudiante de Ingeniería de Sistemas y Desarrollo Web Full-Stack (graduado). Busco consolidar mi carrera en el Desarrollo Web, adquiriendo experiencia y conocimientos nuevos, fortaleciendo mi perfil profesional. Soy entusiasta, empático y tengo habilidades en trabajo en equipo, comunicación, resolución de problemas, responsabilidad y proactividad. Me gusta aprender y superarme a mí mismo, y creo que puedo aportar valor a cualquier equipo de trabajo. Anhelo seguir creciendo como profesional en el mundo del Desarrollo Web.</span>
-                </div>
-    
-                <picture class="container_image-sobreMi" data-aos="fade-right">
-                    <img class="image_sobreMi" src="./assets/images/image-sobreMi.png" alt="Ilustración mujer y café">
-                </picture>
-            </div>
-        </section>
 
         <!-- Habilidades -->
         <section class="habilidades" id="habilidades">
@@ -135,7 +120,19 @@
             <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
             <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
 
-            <div class="cards_container--habilidades">
+            <div class="cards_container--habilidades"> 
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="2100">
+                    <img src="./assets/images/icon-java.png" alt="Icono de Java">
+                    <p>Java</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="2100">
+                    <img src="./assets/images/icon-springboot.png" alt="Icono de Spring-Boot">
+                    <p>Spring-Boot</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="2100">
+                    <img src="./assets/images/logo-mysql.png" alt="Icono de MySQL">
+                    <p>MySQL</p>
+                </div>
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
                     <img src="./assets/images/icon-html.png" alt="Icono de HTML">
                     <p>HTML 5</p>
@@ -150,17 +147,6 @@
                     <img src="./assets/images/icon-js.png" alt="Icono de JavaScript">
                     <p>JavaScript</p>
                 </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="2100">
-                    <img src="./assets/images/icon-java.png" alt="Icono de Java">
-                    <p>Java</p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
-                    <img src="./assets/images/icon-node.png" alt="Icono de Node.js">
-                    <p>Node.js</p>
-                </div>
-
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1700">
                     <img src="./assets/images/icon-git.png" alt="Icono de Git">
                     <p>Git</p>
@@ -169,16 +155,6 @@
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1900">
                     <img src="./assets/images/icon-github-hab.png" alt="Icono de GitHub">
                     <p>Github</p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="2100">
-                    <img src="./assets/images/icon-trello.png" alt="Icono de Trello">
-                    <p>Trello</p>
-                </div>
-
-                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="2100">
-                    <img src="./assets/images/logo-mysql.png" alt="Icono de MySQL">
-                    <p>MySQL</p>
                 </div>
             </div>
         </section>
@@ -333,9 +309,6 @@
                 </a>
                 <a href="https://codepen.io/andres11152" target="_blank">
                     <img src="./assets/images/icon-codepen.png" alt="CodePen" class="icon_codepen--footer">
-                </a>
-                <a href="https://www.instagram.com/dev_btc" target="_blank">
-                    <img src="./assets/images/icon-instagram.png" alt="Instagram">
                 </a>
             </div>
 
