@@ -1,0 +1,50 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-3": "Desarrollador Web Backend",
+        "parrafo-info": "Desarrollador Backend Java, con conocimientos en Spring-Boot y MySQL.Soy un Apasionado por la programación y resolución de problemas, busco oportunidades para aplicar mis habilidades en un entorno profesional. Mi enfoque se centra en el desarrollo de aplicaciones Backend eficientes,fiables y escalables.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy estudiante de Ingeniería de Sistemas y Desarrollo Web Full-Stack (graduado). Busco consolidar mi carrera en el Desarrollo Web, adquiriendo experiencia y conocimientos nuevos, fortaleciendo mi perfil profesional. Soy entusiasta, empático y tengo habilidades en trabajo en equipo, comunicación, resolución de problemas, responsabilidad y proactividad. Me gusta aprender y superarme a mí mismo, y creo que puedo aportar valor a cualquier equipo de trabajo. Anhelo seguir creciendo como profesional en el mundo del Desarrollo Web."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación",
+        "formacion1": "ing de sistemas",
+        "tiempo-formacion1": "2017 - 2021",
+        "formacion2": "Desarrollador Full-Stack",
+        "tiempo-formacion2": "2022 - 2023",
+        "formacion3": "Java Certification Course"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "Juego del Ahorcado",
+        "info-proyecto1": "Un juego donde el usuario debe adivinar la palabra secreta con un cierto número de oportunidades. La palabra se escoge de forma aleatoria por el programa y el usuario perderá en el momento en que la horca se complete.",
+        "title-proyecto2": "Portafolio",
+        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
+        "title-proyecto3": "Encriptador de Texto",
+        "info-proyecto3": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}
